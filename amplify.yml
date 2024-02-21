@@ -3,8 +3,8 @@ backend:
   phases:
     build:
       commands:
-        - nvm install 20.11.1
-        - nvm use 20.11.1
+        - nvm install 18.19.1
+        - nvm use 18.19.1
         - npm install
         - npm ci
 frontend:
