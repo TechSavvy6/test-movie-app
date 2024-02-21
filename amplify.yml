@@ -3,7 +3,7 @@ backend:
   phases:
     build:
       commands:
-        - nvm use 18
+        - nvm use lts
         - npm install
         - npm ci
 frontend:
