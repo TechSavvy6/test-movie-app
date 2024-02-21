@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dzu-dropzone {
+  overflow: hidden !important;
+  min-height: 450px !important;
+  border: 2px dashed #d9d9d9 !important;
+  color: white !important;
+}
+
+.dzu-inputLabel {
+  color: white !important;
+}
+
+.dzu-submitButtonContainer, .dzu-inputLabelWithFiles, .dzu-previewContainer {
+  display: none !important;
+}
