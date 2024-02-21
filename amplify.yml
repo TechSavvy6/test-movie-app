@@ -3,9 +3,7 @@ backend:
   phases:
     build:
       commands:
-        - nvm install 18.17.1
-        - nvm use 18.17.1
-        - npm install -g --quiet yarn
+        - nvm use 18
         - npm install
         - npm ci
 frontend:

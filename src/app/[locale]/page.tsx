@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { unstable_noStore as noStore } from "next/cache";
 import { toast } from "react-hot-toast";
 
 import { api } from "@/trpc/react";
@@ -12,8 +11,6 @@ import Button from "@/app/_components/input/button";
 import { useRouter, useParams } from "next/navigation";
 
 export default function Home() {
-  noStore();
-
   const { push } = useRouter();
 
   const searchParams = useParams();
